@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListDataFragment">
+
+    <TextView
+        android:id="@+id/age2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="top"
+        android:text="Data List"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/buttonListData"
+        android:layout_width="148dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:onClick="onClickList"
+        android:text="View"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
